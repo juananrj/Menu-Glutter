@@ -5,6 +5,13 @@ fetch("./menu.html")
   .then(data => {
     document.querySelector("menu").innerHTML = data;
   });
+  fetch("./menu2.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("menu2").innerHTML = data;
+    });
 
   fetch("./muro.html")
     .then(response => {

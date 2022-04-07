@@ -1,0 +1,13 @@
+.contacto{
+  background-color: lightgray;
+  height: 75px;
+  margin-top: -15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: -1111px;
+}
+.col-contacto{
+  color: white;
+  font-size: 24px;
+}
